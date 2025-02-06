@@ -5,6 +5,27 @@
     }
   ],
   "lookup_history": [
+    "item:travelersbackpack:standard{StarterUpgrades:{Items:[{Count:1b,id:\"travelersbackpack:tanks_upgrade\"}]},Tier:2}",
+    "item:sophisticatedbackpacks:backpack",
+    "item:sophisticatedbackpacks:iron_backpack",
+    "item:gtceu:copper_double_ingot",
+    "item:tfc:metal/scythe/copper{Damage:0}",
+    "item:gtceu:copper_scythe_head",
+    "item:gtceu:copper_scythe{DisallowContainerItem:0b,GT.Behaviours:{AoEColumn:2,AoELayer:2,AoERow:2,MaxAoEColumn:2,MaxAoELayer:2,MaxAoERow:2},GT.Tool:{AttackDamage:6.5f,AttackSpeed:-3.0f,Damage:0,HarvestLevel:2,MaxDamage:2375,ToolSpeed:6.0f},HideFlags:2}",
+    "item:tfc:ceramic/scythe_blade_mold{tank:{Amount:144,FluidName:\"gtceu:copper\"}}",
+    "item:tfc:raw_iron_bloom",
+    "item:tfc:refined_iron_bloom",
+    "item:gtceu:wrought_iron_ingot",
+    "item:gtceu:wrought_iron_scythe_head",
+    "item:gtceu:wrought_iron_scythe{DisallowContainerItem:0b,GT.Behaviours:{AoEColumn:2,AoELayer:2,AoERow:2,MaxAoEColumn:2,MaxAoELayer:2,MaxAoERow:2},GT.Tool:{AttackDamage:7.0f,AttackSpeed:-3.2f,Damage:0,HarvestLevel:2,MaxDamage:6911,ToolSpeed:6.0f},HideFlags:2}",
+    "item:gtceu:damascus_steel_scythe{DisallowContainerItem:0b,Enchantments:[{id:\"minecraft:fortune\",lvl:3s},{id:\"minecraft:looting\",lvl:3s}],GT.Behaviours:{AoEColumn:2,AoELayer:2,AoERow:2,MaxAoEColumn:2,MaxAoELayer:2,MaxAoERow:2},GT.Tool:{AttackDamage:9.0f,AttackSpeed:-2.7f,Damage:0,HarvestLevel:3,MaxDamage:18431,ToolSpeed:10.0f},HideFlags:2}",
+    "item:patchouli:guide_book{\"patchouli:book\":\"dynamictrees:guide\"}",
+    "item:dtarsnouveau:green_archwood_seed",
+    "item:born_in_chaos_v1:eternal_candy",
+    "item:minecraft:slime_ball",
+    "item:beneath:raw_slime",
+    "item:tfc:mortar",
+    "item:beneath:blackstone_brick",
     "item:cataclysm:void_stone",
     "item:cataclysm:witherite_block",
     "item:cataclysm:witherite_ingot",
@@ -57,6 +78,7 @@
     "item:create_connected:large_crank_wheel"
   ],
   "craft_history": [
+    "minecraft:kjs/tfc_metal_scythe_copper",
     "minecraft:kjs/end_portal_frame"
   ],
   "recipe_defaults": {

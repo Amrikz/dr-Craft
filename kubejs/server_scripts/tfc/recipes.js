@@ -3609,4 +3609,15 @@ const registerTFCRecipes = (event) => {
 
     //Lye in mixer
     generateMixerRecipe(event, 'tfc:powder/wood_ash', Fluid.of('minecraft:water', 200), [], null, Fluid.of('tfc:lye', 200), 100, 2, 64, 'lye_in_mixer')
+
+    // Коса для жертвоприношений
+    event.shaped('tfc:metal/scythe/copper', [
+        ' C ',
+        'BAB',
+        ' C '
+    ], {
+        A: 'gtceu:copper_scythe_head',
+        B: 'minecraft:rotten_flesh',
+        C: 'minecraft:bone'
+    });
 }

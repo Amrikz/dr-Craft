@@ -194,7 +194,7 @@ global.TFC_DISABLED_ITEMS = [
     'tfc:metal/sword_blade/copper', 
     'tfc:metal/knife/copper', 
     'tfc:metal/knife_blade/copper', 
-    'tfc:metal/scythe/copper', 
+    // 'tfc:metal/scythe/copper',
     'tfc:metal/scythe_blade/copper',
 
     // Bismuth Bronze
