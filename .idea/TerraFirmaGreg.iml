@@ -7,7 +7,13 @@
       <excludeFolder url="file://$MODULE_DIR$/libraries" />
       <excludeFolder url="file://$MODULE_DIR$/logs" />
       <excludeFolder url="file://$MODULE_DIR$/saves" />
+      <excludeFolder url="file://$MODULE_DIR$/versions/Forge 1.20.1/natives" />
+      <excludeFolder url="file://$MODULE_DIR$/versions/forge-47.2.6/natives" />
       <excludeFolder url="file://$MODULE_DIR$/xaero" />
+      <excludeFolder url="file://$MODULE_DIR$/crash-reports" />
+      <excludeFolder url="file://$MODULE_DIR$/fancymenu_data" />
+      <excludeFolder url="file://$MODULE_DIR$/ldlib" />
+      <excludeFolder url="file://$MODULE_DIR$/XaeroWaypoints_BACKUP240807" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

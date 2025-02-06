@@ -1,5 +1,28 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "tfc:field_guide": {
+      "viewedEntries": [
+        "tfc:firmaciv/rowboat",
+        "tfc:firmaciv/sloop",
+        "tfc:firmaciv/cannon",
+        "tfc:the_world/ores_and_minerals",
+        "tfc:tfg_ores/normal_salt",
+        "tfc:tfg_ores/deep_pitchblende",
+        "tfc:tfg_ores/deep_magnetite",
+        "tfc:tfg_ores/normal_coal",
+        "tfc:tfg_tips/anvil_working_guide",
+        "tfc:tfg_tips/infinite_resources",
+        "tfc:tfg_tips/lv_machines",
+        "tfc:tfg_tips/faqs",
+        "tfc:mechanics/pumps",
+        "tfc:tfcchannelcasting/channel_casting",
+        "tfc:tfcchannelcasting/casting_chocolate",
+        "tfc:waterflasks/bladders"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }

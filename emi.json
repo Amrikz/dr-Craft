@@ -1,0 +1,64 @@
+{
+  "favorites": [
+    {
+      "stack": "item:minecraft:spruce_trapdoor"
+    }
+  ],
+  "lookup_history": [
+    "item:thinair:soulfire_bottle",
+    "item:alexsmobs:dimensional_carver{Damage:0}",
+    "item:alexsmobs:shattered_dimensional_carver{Damage:0}",
+    {
+      "type": "item",
+      "id": "minecraft:end_portal_frame",
+      "amount": 32
+    },
+    "item:gtceu:end_dome",
+    {
+      "type": "item",
+      "id": "minecraft:diamond",
+      "amount": 9
+    },
+    "item:minecraft:diamond_block",
+    "item:gtceu:diamond_plate",
+    "item:ae2:printed_engineering_processor",
+    "item:ae2:engineering_processor",
+    "item:ae2:crafting_terminal",
+    "item:gtceu:lv_laser_engraver",
+    "item:minecraft:dragon_egg",
+    "item:gtceu:nether_dome",
+    "item:gtceu:nether_star_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:nether_air",
+      "amount": 32000
+    },
+    "item:minecraft:end_stone",
+    "item:minecraft:black_concrete",
+    "item:gtceu:lv_energy_output_hatch",
+    "item:minecraft:end_crystal",
+    "item:gtceu:quantum_eye",
+    "item:exposure:interplanar_projector",
+    "item:minecraft:ender_eye",
+    "item:tfg:artificial_end_portal_frame",
+    "item:tfc:plant/eel_grass",
+    "item:gtceu:steam_large_turbine",
+    "item:gtceu:uv_fusion_reactor",
+    "item:gtceu:fusion_casing_mk2",
+    "item:megacells:fluid_storage_cell_1m{}",
+    "item:tfcastikorcarts:supply_cart/acacia",
+    "item:tfcastikorcarts:animal_cart/acacia",
+    "item:tfc:wood/trapped_chest/acacia",
+    "item:create_connected:large_crank_wheel"
+  ],
+  "craft_history": [
+    "minecraft:kjs/end_portal_frame"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
