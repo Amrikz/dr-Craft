@@ -23,6 +23,14 @@
       ],
       "bookmarks": [],
       "completedManualQuests": []
+    },
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:resources/archwood",
+        "ars_nouveau:resources/illusion_blocks"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
     }
   }
 }

@@ -42,6 +42,9 @@
 			pewen = true
 			thornwood = true
 
+		[types.wood_type.aether]
+			skyroot = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.gtceu]
@@ -61,6 +64,14 @@
 			purple_archwood = true
 			green_archwood = true
 			blue_archwood = true
+
+		[types.leaves_type.aether]
+			golden_oak = true
+			holiday = true
+			decorated_holiday = true
+			crystal = true
+			crystal_fruit = true
+			skyroot = true
 
 #Disables specific entries
 [entries]

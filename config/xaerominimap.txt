@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:0
+ignoreUpdate:381
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
@@ -20,7 +20,7 @@ oldDeathpoints:true
 distance:1
 lockNorth:false
 zoom:0
-minimapSize:0
+minimapSize:180
 chunkGrid:-1
 slimeChunks:false
 mapSafeMode:false
@@ -70,7 +70,7 @@ hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:100
 waypointsBottom:false
-minimapShape:0
+minimapShape:1
 lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
