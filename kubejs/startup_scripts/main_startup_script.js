@@ -21,6 +21,7 @@ StartupEvents.registry('block', event => {
  */
 BlockEvents.modification(event => {
     modifyFirmaCivBlocks(event)
+    modifyMinecraftBlocks(event)
 })
 
 /**

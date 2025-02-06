@@ -25,4 +25,8 @@ const registerMinecraftBlockTags = (event) => {
 
     // Теперь обсидиан сторадж блок
     event.add('forge:storage_blocks/obsidian', 'minecraft:obsidian')
+
+    // Рамка портала в энд
+    event.add('minecraft:mineable/pickaxe', 'minecraft:end_portal_frame')
+    event.add('minecraft:needs_diamond_tool', 'minecraft:end_portal_frame')
 }

@@ -2256,6 +2256,21 @@ const registerMinecraftRecipes = (event) => {
 
     //#endregion
 
+    //#region Рамка портала в энд
+
+    event.shaped('12x minecraft:end_portal_frame', [
+        'ABA',
+        'CDC',
+        'DDD'
+    ], {
+        A: 'minecraft:ender_eye',
+        B: 'minecraft:dragon_egg',
+        C: 'minecraft:diamond',
+        D: 'minecraft:obsidian'
+    });
+
+    //#endregion
+
     //#region Выход: Кисточка
 
     event.remove({ id: 'minecraft:brush' })

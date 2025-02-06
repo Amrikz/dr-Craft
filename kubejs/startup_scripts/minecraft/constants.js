@@ -685,7 +685,7 @@ global.MINECRAFT_DISABLED_ITEMS = [
     'minecraft:brown_mushroom_block', 
     'minecraft:red_mushroom_block', 
     //'minecraft:dragon_egg', 
-    'minecraft:end_portal_frame', 
+    //'minecraft:end_portal_frame',
     'minecraft:mushroom_stew', 
     'minecraft:structure_void',
     'minecraft:lectern', 
