@@ -38,10 +38,6 @@
 		[types.wood_type.cataclysm]
 			chorus = true
 
-		[types.wood_type.alexscaves]
-			pewen = true
-			thornwood = true
-
 		[types.wood_type.aether]
 			skyroot = true
 
@@ -55,9 +51,6 @@
 			green_archwood = true
 			purple_archwood = true
 			red_archwood = true
-
-		[types.leaves_type.alexscaves]
-			ancient = true
 
 		[types.leaves_type.dtarsnouveau]
 			red_archwood = true
