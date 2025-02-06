@@ -151,12 +151,18 @@
     "firepit": true,
     "ingot_pile": true
   },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
   "exposure": {
     "lightroom": true,
     "photograph_frame": true
+  },
+  "autoleveling": {
+    "level": true
   },
   "create": {
     "filter": true,
@@ -168,6 +174,13 @@
     "crafting_blueprint": true,
     "goggles.detailed": false,
     "placard": true
+  },
+  "dynamictrees": {
+    "rooty_water": true,
+    "pod": true,
+    "fruit": true,
+    "rooty": true,
+    "branch": true
   },
   "corpse": {
     "corpse": true

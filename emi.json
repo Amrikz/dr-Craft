@@ -5,6 +5,11 @@
     }
   ],
   "lookup_history": [
+    "item:cataclysm:void_stone",
+    "item:cataclysm:witherite_block",
+    "item:cataclysm:witherite_ingot",
+    "item:cataclysm:meat_shredder",
+    "item:minecraft:end_portal_frame",
     "item:thinair:soulfire_bottle",
     "item:alexsmobs:dimensional_carver{Damage:0}",
     "item:alexsmobs:shattered_dimensional_carver{Damage:0}",

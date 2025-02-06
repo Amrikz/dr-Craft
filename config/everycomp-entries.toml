@@ -29,10 +29,38 @@
 			white_cedar = true
 			willow = true
 
+		[types.wood_type.ars_nouveau]
+			archwood = true
+
+		[types.wood_type.born_in_chaos_v1]
+			scorched = true
+
+		[types.wood_type.cataclysm]
+			chorus = true
+
+		[types.wood_type.alexscaves]
+			pewen = true
+			thornwood = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.gtceu]
 			rubber = false
+
+		[types.leaves_type.ars_nouveau]
+			blue_archwood = true
+			green_archwood = true
+			purple_archwood = true
+			red_archwood = true
+
+		[types.leaves_type.alexscaves]
+			ancient = true
+
+		[types.leaves_type.dtarsnouveau]
+			red_archwood = true
+			purple_archwood = true
+			green_archwood = true
+			blue_archwood = true
 
 #Disables specific entries
 [entries]
