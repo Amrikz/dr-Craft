@@ -2,6 +2,11 @@
   "bookGuiScale": 0,
   "clickedVisualize": false,
   "bookData": {
+    "dynamictrees:guide": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "tfc:field_guide": {
       "viewedEntries": [
         "tfc:firmaciv/rowboat",
@@ -19,7 +24,8 @@
         "tfc:mechanics/pumps",
         "tfc:tfcchannelcasting/channel_casting",
         "tfc:tfcchannelcasting/casting_chocolate",
-        "tfc:waterflasks/bladders"
+        "tfc:waterflasks/bladders",
+        "tfc:firmalife/wine_consumption"
       ],
       "bookmarks": [],
       "completedManualQuests": []

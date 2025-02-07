@@ -133,7 +133,8 @@
     "dynamicIcons": {
       "Xikaro": "https://mc-heads.net/avatar/57b3dfb5f8a649e28b544e4ffc63256f",
       "default": "https://via.placeholder.com/256.png",
-      "amrikz": "https://mc-heads.net/avatar/7710398d914140cc8e3245c9cd0dea52"
+      "amrikz": "https://mc-heads.net/avatar/7710398d914140cc8e3245c9cd0dea52",
+      "rikzlab.duckdns.org": "https://api.mcsrvstat.us/icon/rikzlab.duckdns.org"
     },
     "dynamicVariables": {
       "default": "Example Text",
