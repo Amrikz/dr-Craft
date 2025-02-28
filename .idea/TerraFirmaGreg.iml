@@ -15,6 +15,8 @@
       <excludeFolder url="file://$MODULE_DIR$/ldlib" />
       <excludeFolder url="file://$MODULE_DIR$/XaeroWaypoints_BACKUP240807" />
       <excludeFolder url="file://$MODULE_DIR$/modernfix" />
+      <excludeFolder url="file://$MODULE_DIR$/local" />
+      <excludeFolder url="file://$MODULE_DIR$/screenshots" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
