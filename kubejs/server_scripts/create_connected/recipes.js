@@ -71,4 +71,15 @@ const registerCreateConnectedRecipes = (event) => {
         .itemOutputs('create_connected:control_chip')
         .duration(720)
         .EUt(16)
+
+    // Пластинки
+    event.shapeless('create_connected:music_disc_interlude', [
+        'tfc:blank_disc',
+        'create:large_cogwheel'
+    ]).id('create_connected:music_disc_interlude')
+
+    event.shapeless('create_connected:music_disc_elevator', [
+        'tfc:blank_disc',
+        'create:cogwheel'
+    ]).id('create_connected:music_disc_elevator')
 }

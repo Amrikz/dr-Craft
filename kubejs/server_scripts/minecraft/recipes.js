@@ -3245,4 +3245,25 @@ const registerMinecraftRecipes = (event) => {
 	// Nether Brick
 	
 	event.smelting('minecraft:nether_brick', 'minecraft:netherrack')
+
+    // Minecraft нитки
+    event.shapeless('minecraft:string', [
+        'tfc:wool_yarn',
+    ]).id('minecraft:string')
+
+    // Minecraft пластинки
+    event.shapeless('3x minecraft:disc_fragment_5', [
+        'tfc:blank_disc',
+        '#forge:tools/hammers'
+    ]).id('minecraft:disc_fragment_5')
+
+    event.shapeless('minecraft:music_disc_pigstep', [
+        'tfc:blank_disc',
+        'beneath:wood/log/crimson'
+    ]).id('minecraft:music_disc_pigstep')
+
+    event.shapeless('minecraft:music_disc_relic', [
+        'tfc:blank_disc',
+        'beneath:wood/log/warped'
+    ]).id('minecraft:music_disc_relic')
 }
