@@ -3266,4 +3266,59 @@ const registerMinecraftRecipes = (event) => {
         'tfc:blank_disc',
         'beneath:wood/log/warped'
     ]).id('minecraft:music_disc_relic')
+
+    // Броня
+    event.shaped('minecraft:iron_boots', [
+        'ABA',
+        'C C'
+    ], {
+        A: '#forge:ingots/wrought_iron',
+        B: '#forge:tools/hammers',
+        C: '#forge:double_plates/wrought_iron',
+    }).id('minecraft:iron_boots')
+
+    event.shaped('minecraft:iron_chestplate', [
+        'ABA',
+        'AAA',
+        'AAA'
+    ], {
+        A: '#forge:double_plates/wrought_iron',
+        B: '#forge:tools/hammers',
+    }).id('minecraft:iron_chestplate')
+
+    event.shapeless('minecraft:poppy', [
+        '#forge:dyes/red',
+        'gtceu:fertilizer',
+        '#tfc:dirt',
+    ]).id('minecraft:poppy')
+
+    event.shaped('minecraft:cobweb', [
+        'AAA',
+        'AAA',
+        'AAA'
+    ], {
+        A: '#forge:string',
+    }).id('minecraft:cobweb')
+
+    event.shaped('minecraft:diamond_pickaxe', [
+        'A',
+        'B',
+        'B'
+    ], {
+        A: '#forge:pickaxe_heads/diamond',
+        B: '#forge:rods/wooden',
+    }).id('minecraft:diamond_pickaxe')
+
+    event.shaped('3x minecraft:scaffolding', [
+        'AAA',
+        'B B',
+        'B B'
+    ], {
+        A: '#minecraft:wooden_slabs',
+        B: '#forge:rods/wooden',
+    }).id('minecraft:scaffolding')
+
+    event.shapeless('minecraft:stone_button', [
+        '#minecraft:stone_buttons',
+    ]).id('minecraft:stone_button')
 }

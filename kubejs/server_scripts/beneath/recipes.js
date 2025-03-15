@@ -9,4 +9,12 @@ const registerBeneathRecipes = (event) => {
 
     event.recipes.createMilling('minecraft:slime_ball', '1x beneath:raw_slime')
         .id('tfg:milling/slime_ball')
+
+    event.shapeless('beneath:wood/log/crimson', [
+        'minecraft:crimson_stem'
+    ]).id('beneath:wood/log/crimson')
+
+    event.shapeless('beneath:wood/log/warped', [
+        'minecraft:warped_stem'
+    ]).id('beneath:wood/log/warped')
 }
