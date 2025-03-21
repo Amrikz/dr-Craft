@@ -126,4 +126,64 @@ const registerArsNouveauRecipes = (event) => {
         D: '#forge:feathers',
         E: '#forge:dusts/glowstone',
     }).id('ars_nouveau:wilden_stalker_se')
+
+    event.shaped('ars_nouveau:magebloom_crop', [
+        ' A ',
+        'BCB',
+        ' A '
+    ], {
+        A: '#forge:dusts/glowstone',
+        B: '#forge:gems/source',
+        C: '#tfc:seeds',
+    }).id('ars_nouveau:magebloom_crop')
+
+
+    event.shaped('ars_nouveau:mendosteen_pod', [
+        ' A ',
+        'BCD',
+        ' A '
+    ], {
+        A: '#forge:gems/source',
+        B: '#tfc:foods/apples',
+        C: 'gtceu:fertilizer',
+        D: 'ars_nouveau:green_archwood_sapling'
+    }).id('ars_nouveau:mendosteen_pod')
+
+    event.shaped('ars_nouveau:bastion_pod', [
+        ' A ',
+        'BCD',
+        ' A '
+    ], {
+        A: '#forge:gems/source',
+        B: '#tfc:foods/apples',
+        C: 'gtceu:fertilizer',
+        D: 'ars_nouveau:purple_archwood_sapling'
+    }).id('ars_nouveau:bastion_pod')
+
+    event.shaped('ars_nouveau:bombegranate_pod', [
+        ' A ',
+        'BCD',
+        ' A '
+    ], {
+        A: '#forge:gems/source',
+        B: '#tfc:foods/apples',
+        C: 'gtceu:fertilizer',
+        D: 'ars_nouveau:red_archwood_sapling'
+    }).id('ars_nouveau:bombegranate_pod')
+
+    event.shaped('ars_nouveau:frostaya_pod', [
+        ' A ',
+        'BCD',
+        ' A '
+    ], {
+        A: '#forge:gems/source',
+        B: '#tfc:foods/apples',
+        C: 'gtceu:fertilizer',
+        D: 'ars_nouveau:blue_archwood_sapling'
+    }).id('ars_nouveau:frostaya_pod')
+
+    event.shapeless('ars_nouveau:sourceberry_bush', [
+        'ars_nouveau:magebloom_crop',
+        'tfc:food/blackberry',
+    ]).id('ars_nouveau:sourceberry_bush')
 }

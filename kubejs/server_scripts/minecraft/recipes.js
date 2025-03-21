@@ -3292,6 +3292,12 @@ const registerMinecraftRecipes = (event) => {
         '#tfc:dirt',
     ]).id('minecraft:poppy')
 
+    event.shapeless('minecraft:dandelion', [
+        '#forge:dyes/yellow',
+        'gtceu:fertilizer',
+        '#tfc:dirt',
+    ]).id('minecraft:dandelion')
+
     event.shaped('minecraft:cobweb', [
         'AAA',
         'AAA',
@@ -3309,6 +3315,15 @@ const registerMinecraftRecipes = (event) => {
         B: '#forge:rods/wooden',
     }).id('minecraft:diamond_pickaxe')
 
+    event.shaped('minecraft:diamond_sword', [
+        'A',
+        'B',
+        'B'
+    ], {
+        A: '#forge:sword_heads/diamond',
+        B: '#forge:rods/wooden',
+    }).id('minecraft:diamond_sword')
+
     event.shaped('3x minecraft:scaffolding', [
         'AAA',
         'B B',
@@ -3321,4 +3336,139 @@ const registerMinecraftRecipes = (event) => {
     event.shapeless('minecraft:stone_button', [
         '#minecraft:stone_buttons',
     ]).id('minecraft:stone_button')
+
+    event.shapeless('minecraft:apple', [
+        '#tfc:foods/apples',
+    ]).id('minecraft:apple')
+
+    event.shapeless('minecraft:wheat', [
+        'tfc:food/wheat',
+    ]).id('minecraft:wheat')
+
+    event.shapeless('minecraft:carrot', [
+        'tfc:food/carrot',
+    ]).id('minecraft:carrot')
+
+    event.shapeless('minecraft:kelp', [
+        'tfc:plant/leafy_kelp',
+    ]).id('minecraft:kelp')
+
+    // Алмазная Броня
+    event.shaped('minecraft:diamond_helmet', [
+        'AAA',
+        'ABA'
+    ], {
+        A: '#forge:plates/diamond',
+        B: 'create:super_glue',
+    }).id('minecraft:diamond_helmet')
+
+    event.shaped('minecraft:diamond_chestplate', [
+        'ABA',
+        'AAA',
+        'AAA'
+    ], {
+        A: '#forge:plates/diamond',
+        B: 'create:super_glue',
+    }).id('minecraft:diamond_chestplate')
+
+    event.shaped('minecraft:diamond_leggings', [
+        'AAA',
+        'ABA',
+        'A A'
+    ], {
+        A: '#forge:plates/diamond',
+        B: 'create:super_glue',
+    }).id('minecraft:diamond_leggings')
+
+    event.shaped('minecraft:diamond_boots', [
+        'ABA',
+        'A A'
+    ], {
+        A: '#forge:plates/diamond',
+        B: 'create:super_glue',
+    }).id('minecraft:diamond_boots')
+
+    event.recipes.gtceu.assembler('minecraft:brewing_stand')
+        .itemInputs('3x #forge:cobblestone', '3x minecraft:tripwire_hook', '#forge:rods/blaze')
+        .circuit(3)
+        .itemOutputs('minecraft:brewing_stand')
+        .duration(200)
+        .EUt(20)
+
+    event.shaped('minecraft:totem_of_undying', [
+        ' A ',
+        'BCB'
+    ], {
+        A: 'minecraft:nether_star',
+        B: '#forge:foils/gold',
+        C: 'dummmmmmy:target_dummy',
+    }).id('minecraft:totem_of_undying')
+
+    event.shaped('minecraft:fermented_spider_eye', [
+        ' A ',
+        'ABA',
+        ' A ',
+    ], {
+        A: '#forge:dusts/sugar',
+        B: 'minecraft:spider_eye',
+    }).id('minecraft:fermented_spider_eye')
+
+    event.shapeless('minecraft:grass_block', [
+        '#tfc:grass',
+    ]).id('minecraft:grass_block')
+
+    event.shaped('minecraft:iron_hoe', [
+        'A',
+        'B',
+        'B'
+    ], {
+        A: '#forge:hoe_heads/wrought_iron',
+        B: '#forge:rods/wooden',
+    }).id('minecraft:iron_hoe')
+
+    event.shapeless('minecraft:mossy_cobblestone', [
+        '#forge:cobblestone',
+        '#minecraft:leaves',
+    ]).id('minecraft:mossy_cobblestone')
+
+    event.shaped('minecraft:phantom_membrane', [
+        ' A ',
+        'ABA',
+        ' A ',
+    ], {
+        A: '#aether:aerclouds',
+        B: '#forge:gems/source',
+    }).id('minecraft:phantom_membrane')
+
+    event.shaped('minecraft:prismarine_shard', [
+        ' A ',
+        'ABA',
+        ' A ',
+    ], {
+        A: '#forge:gems/quartz',
+        B: 'ars_nouveau:water_essence',
+    }).id('minecraft:prismarine_shard')
+
+    event.shapeless('minecraft:rabbit_hide', [
+        'tfc:small_raw_hide',
+    ]).id('minecraft:rabbit_hide')
+
+    event.shaped('minecraft:sculk_catalyst', [
+        'ABC',
+        'DED',
+        'CBA',
+    ], {
+        A: '#forge:gems/source',
+        B: '#forge:dusts/glowstone',
+        C: 'ars_nouveau:magebloom_fiber',
+        D: 'gtceu:fertilizer',
+        E: '#tfc:dirt',
+    }).id('minecraft:sculk_catalyst')
+
+    event.recipes.gtceu.alloy_smelter('minecraft:anvil')
+        .itemInputs('3x minecraft:iron_block')
+        .notConsumable('gtceu:anvil_casting_mold')
+        .itemOutputs('minecraft:anvil')
+        .duration(500)
+        .EUt(7)
 }

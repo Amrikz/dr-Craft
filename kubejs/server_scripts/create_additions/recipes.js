@@ -68,4 +68,14 @@ const registerCreateAdditionsRecipes = (event) => {
         .itemOutputs('4x createaddition:barbed_wire')
         .duration(200)
         .EUt(20)
+
+    event.shaped('createaddition:electric_motor', [
+        'ABA',
+        'BCB',
+        'ABA'
+    ], {
+        A: '#forge:rods/magnetic_iron',
+        B: 'gtceu:lv_voltage_coil',
+        C: 'create:brass_casing',
+    }).id('tfg:create_additions/electric_motor')
 }
